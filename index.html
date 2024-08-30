@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+    <nav id="navbar">
+        <header class="head">
+            <img src="logo.png" alt="logo">
+            <h1 class="title">Da Vinci Resolve</h1>
+        </header>
+        <ul class="upperlist">
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Interface">Interface</a></li>
+            <ul class="lowerlist">
+                <li><a href="#Project_Manager">Project Manager</a></li>
+                <li><a href="#Switching_Among_Pages">Switching Among Pages</a></li>
+                <li><a href="#The_Media_Page">The Media Page</a></li>
+                <li><a href="#The_Cut_Page">The Cut Page</a></li>
+                <li><a href="#The_Edit_Page">The Edit Page</a></li>
+                <li><a href="#The_Fusion_Page">The Fusion Page</a></li>
+                <li><a href="#The_Color_Page">The Color Page</a></li>
+                <li><a href="#The_Fairlight_Page">The Fairlight Page</a></li>
+                <li><a href="#The_Deliver_Page">The Deliver Page</a></li>
+            </ul>
+            <li><a href="#Setup_and_Workflow">Setup and Workflow</a></li>
+            <li><a href="#Ingest_and_organize_Media">Ingest and organize Media</a></li>
+            <li><a href="#Cut_Page">Cut Page</a></li>
+            <ul class="lowerlist">
+                <li><a href="#The_Media_Pool">The Media Pool</a></li>
+                <li><a href="#The_Viewer">The Viewer</a></li>
+                <li><a href="#Audio_Meter">Audio Meter</a></li>
+                <li><a href="#The_Timeline">The Timeline</a></li>
+            </ul>
+            <li><a href="#Edit">Edit</a></li>
+            <li><a href="#Editing_Effects_and_Transistions">Editing Effects and Transistions</a></li>
+            <ul class="lowerlist">
+                <li><a href="#The_ToolBox">The ToolBox</a></li>
+                <li><a href="#Open_Fx">Open Fx</a></li>
+                <li><a href="#Audio_Fx">Audio Fx</a></li>
+                <li><a href="#Effects_Library_Favorites">Effects Libary Favorites</a></li>
+            </ul>
+            <li><a href="#Inform_and_Confrom_Projects">Inform and Confrom Projects</a></li>
+            <li><a href="#Fusion_Fundamentals">Fusion Fundamentals</a></li>
+            <li><a href="#Fusion_Page_Effects">Fusion Page Effects</a></li>
+            <li><a href="#Color">Color</a></li>
+            <li><a href="#Color_Page_Effects">Color Page Effects</a></li>
+            <li><a href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    
+    
+    <section class="main-section" id="Introduction">
+        <header class="t-large">Introduction</header>
+        <article>
+            <p>DaVinci Resolve integrates editing, compositing and motion graphics, color correction,audio recording and mixing, and finishing within a single, 
+                easy to learn application. Theediting, compositing, grading, and audio tools found in DaVinci Resolve should be immediately familiar to experienced 
+                artists who’ve used other applications, but they’re also approachable to folks who are new to post-production.</p>
+            <p>Additionally, dedicated tools available for on-set workflows integrate tasks such as media duplication, shot and metadata organization, 
+                and on-location look management into a complete toolset that lets you smoothly segue from the camera original media being acquired in the field
+                 to the organization and use of that media in a wide variety of post‑production workflows with DaVinci Resolve at their heart.</p>
+            <p>And you can go further, using the collaborative features of DaVinci Resolve to enable multiple artists, for example an editor, a colorist, 
+                and assistants, to work together on the same timeline simultaneously, for the ultimate integrated workflow.</p>
+            <p>Of course, no post-production professional works in a vacuum, and DaVinci Resolve makes it easy to work with other facilities by importing 
+                projects and exporting project exchange formats and rendered or managed media among applications such as Apple’s Final Cut Pro X, 
+                Adobe’s Premiere Pro, Avid’s Media Composer and Pro Tools, Autodesk’s Flame Premium, and many other applications via robust support 
+                of XML, AAF, and EDL import and export workflows.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="Interface">
+        <header class="t-large">Interface</header>
+        <article>
+            <p>It introduces the DaVinci Resolve user interface (UI), explaining where to find each group of features, and how the highly focused and tightly
+                integrated Media, Edit,Fusion, Color, Fairlight, and Deliver pages work together to let you pursue nearly anypost‑production workflow you can
+                imagine. After this brief tour, the rest of Part 1 of thismanual provides much more in‑depth information about project management,
+                preferences, project settings, and other topics of general interest for getting started.</p>
+
+            <section class="main-section" id="Project_Manager">
+                <header class="t-medium">Project Manager</header>
+                <article>
+                    <p>For most users, Project Manager is the first window you’ll see when you open DaVinci Resolve.
+                        The Project Manager is a centralized interface for managing all projects belonging to the user who’s
+                        currently logged in, whose name appears at the upper right-hand corner in a project title bar.</p>
+                    <p>The Project Manager is also the place where you import and export projects to and from
+                        DaVinci Resolve, whether you’re moving projects around from user to user, or moving projects from
+                        one DaVinci Resolve workstation to another. Finally, the Project Manager also lets you organize the
+                        databases that are used to manage everything in DaVinci Resolve using the Database Sidebar.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Switching_Among_Pages">
+                <header class="t-medium">Switching Among Pages</header>
+                <article>
+                    <p>DaVinci Resolve is divided into seven main pages of functionality, each of which facilitates a different
+                        specialization of a typical post production workflow, and each of which can be accessed using buttons
+                        at the very bottom of the DaVinci Resolve interface. These buttons are organized in order of workflow,
+                        and they’re always available, letting you quickly switch between importing media, fast editing, detailed
+                        editing, compositing, grading, audio mixing, and outputting your project in a structured manner.</p>
+                    <p></p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Media_Page">
+                <header class="t-medium">The Media Page</header>
+                <article>
+                    <p>The Media page is the primary interface for clip import, media management, and clip organization in
+                        DaVinci Resolve. It’s central to the way DaVinci Resolve works that the source media used by a project
+                        is organized separately from the project data that you import and manage in the Edit page. In this way,
+                        you can manage and update the clips used by timelines in the current project with ease, switching
+                        between offline and online media, reorganizing clips, and troubleshooting any problems that occur.</p>
+                    <p>The Media page also contains much of the core functionality that will be used for on-set workflows,
+                        and in the ingest, organizational, and sound-syncing steps of digital dailies workflows. This chapter
+                        covers most of the functionality found in the Media page, including functions in detail that are
+                        referenced throughout this manual.</p>
+                    <p>The Media page is divided into six different areas, designed to make it easy to find, select, and work
+                        with media in your project. Much of the functionality and most of the commands are found within the
+                        contextual menus that appear when you right-click clips in the Library, File Browser, or Media Pool.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Cut_Page">
+                <header class="t-medium">The Cut Page</header>
+                <article>
+                    <p>The Cut page is a focused environment for fast editing. It’s useful in situations where you need to
+                        quickly cut a news segment, build an episode of web content, edit a straightforward program,
+                        experiment with multiple arrangements of a scene, or put together a first assembly edit.</p>
+                    <p>The Cut page is also a good introductory editing interface for people who are new to editing, as it
+                        presents a streamlined set of tools that are fast to learn and simple to use. Whatever your background,
+                        you’ll find the Cut page to be a valuable addition to your editing experience in DaVinci Resolve.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Edit_Page">
+                <header class="t-medium">The Edit Page</header>
+                <article>
+                    <p>The Edit page exposes a source-record style NLE that incorporates many specialized features for both
+                        creative editing and finishing. The Edit page is divided into three main regions: the browsers found at
+                        the left, the Viewers at the top, and the Timeline at the bottom, all of which work together to let you
+                        import, edit, and trim timelines with a flexible variety of tools and methods.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Fusion_Page">
+                <header class="t-medium">The Fusion Page</header>
+                <article>
+                    <p>The Fusion page is intended, eventually, to be a feature-complete integration of Blackmagic Design
+                        Fusion, a powerful 2D and 3D compositing application with over thirty years of evolution serving the
+                        film and broadcast industry, creating effects that have been seen in countless films and
+                        television series.</p>
+                    <p>Merged right into DaVinci Resolve with a newly updated user interface, the Fusion page makes it
+                        possible to jump immediately from editing right into compositing, with no need to export media, relink
+                        files, or launch another application to get your work done. Everything you need now lives right inside
+                        DaVinci Resolve.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Color_Page">
+                <header class="t-medium">The Color Page</header>
+                <article>
+                    <p>The Color page is where you color correct, or grade, your program. It has all of the controls available
+                        for manipulating color and contrast, reducing noise, creating limited secondary color corrections,
+                        building image effects of different kinds, adjusting clip geometry, and making many other corrective
+                        and stylistic adjustments. The Color page is divided into seven main areas that work together to let
+                        you build a grade.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Fairlight_Page">
+                <header class="t-medium">The Fairlight Page</header>
+                <article>
+                    <p>In single monitor mode, the Fairlight page is an optimized look at the audio tracks of your project, with
+                        an expanded mixer and custom monitoring controls that make it easy to evaluate and adjust the levels
+                        of your program in order to create a smooth and harmonious mix.</p>
+                    <p>The Fairlight page differs in another unique respect from the Edit page Timeline, in that it supports
+                        audio layering. Audio layering is a special audio editing mode that lets you superimpose multiple audio
+                        clips in the same track, and whatever audio clip is on top dictates which audio will play. In a way, when
+                        audio layering is enabled, superimposed audio clips are treated the same as superimposed video clips
+                        that all have opacity set to 100%, with clips on top obscuring (or muting) clips underneath.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="The_Deliver_Page">
+                <header class="t-medium">The Deliver Page</header>
+                <article>
+                    <p>Once you’ve finished grading your project, you need to either render it, or output it to tape to deliver it
+                        to your client. This is where the Deliver page comes in. The Deliver page can be used both to output
+                        digital deliverables, or to output tape, depending on which mode you enable. Either way, the Deliver
+                        page is divided into five areas of functionality, each of which lets you set up a different part of a render
+                        or output to tape.</p>
+                    <p>The Deliver page is set up to let you queue a series of individual jobs, each of which can have different
+                        settings, or be set up to render different parts of the Timeline. In this way, you can output multiple
+                        deliverables, or re-render multiple areas of a timeline, as your needs require.</p>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <section class="main-section" id="Setup_and_Workflow">
+        <header class="t-large">Setup and Workflow</header>
+        <article>
+            <header class="t-medium2">Project Management</header>
+            <p>The Project Manager provides an in-application interface for creating, renaming, and deleting projects.
+                Many of these commands exist within the contextual menu that appears when you right-click the
+                background of the Project Manager.</p>
+
+            <header class="t-medium2">Organizing Projects in Folders</header>
+            <p>If you’re organizing a lot of projects, you can create folders to put them into</p>
+            <ul>
+                <li><b>To delete a folder:</b> Right-click a folder, choose Delete, and click Yes when prompted.All projects inside a deleted folder will be deleted as well</li>
+                <li><b>To rename a folder:</b> Right-click a folder, choose Rename, then enter a new name and click OK.</li>
+                <li><b>To open a folder:</b> Double-click a folder to open it and view its contents. At the upper left-hand corner of the Project Manager, a folder path view shows you which folder is open, as well as where you are within a nested series of folders if that’s what you’ve set up.</li>
+                <li><b>To exit a folder:</b> Use the path control at the bottom left of the Project Manager.</li>
+                <li><b>To move a project into a folder:</b> Drag the project onto a folder icon, and drop it to place it inside the folder.</li>
+                <li><b>To move a project out of a folder:</b> Open a folder, select one or more projects you want to move, then right-click the selection and choose Cut from the contextual menu.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="main-section" id="Ingest_and_organize_Media">
+        <header class="t-large">Ingest and organize media</header>
+        <article>
+            <p>The Media page is the primary interface for media import and clip organization in DaVinci Resolve. It’s also where all timelines that you edit in DaVinci Resolve or import from other applications are organized. While timelines and clips are both saved in the Media Pool, it’s central to the way DaVinci Resolve works that the source media used by a project is managed separately from your timelines. In this way, you can manage and update the clips used by timelines with ease, importing and reorganizing clips, switching between offline and online media, and troubleshooting any problems
+                that occur.</p>
+            <ul>
+                <li>
+                    <header class="t-small">The Media Storage Browser</header>
+                    <p>The Media Storage browser lets you see all of the volumes connected to your workstation, browsing them for media that you want to preview and eventually import into your DaVinci Resolve project in one way or another. Whereas other applications rely on some sort of import dialog, DaVinci Resolve provides the Media page for doing complex media import tasks. To facilitate media import, the Media Storage browser is divided into two areas, the Volume List, and the Media Browser.</p>
+                </li>
+                <li>
+                    <header class="t-small">Viewer</header>
+                    <p>Clips that you select in any area of the Media page show their contents in the Viewer. The current
+                        position of the playhead is shown in the timecode field at the upper right-hand corner of the Viewer.</p>
+                </li>
+                <li>
+                    <header class="t-small">Metadata Editor</header>
+                    <p>Both the Media and Edit pages have a Metadata Editor. When you select a clip in any area of the Media page, its metadata is displayed within the Metadata Editor. If you select multiple clips, only the last clip’s information appears. The Metadata Editor’s header contains uneditable information about the selected clip, including the file name, directory, duration, video codec, frame rate, resolution, audio codec, sample rate, and number of channels.</p>
+                </li>
+                <li>
+                    <header class="t-small">Audio Panel</header>
+                    <p>The Audio Panel can be put into one of two modes via an option menu. In the default Meters mode,
+                        audio meters are displayed that show the levels of audio in clips you’re playing. In Waveform mode,you can open audio clips side by side with video clips in the Viewer in order to sync them together
+                        manually.</p>
+                    <p>When set to Levels mode, you can check audio embedded within clips you’ve imported into the Media
+                        Pool. As you play a clip, each audio meter shows the levels for whichever of these tracks contain audio. A Mute button in the Viewer lets you disable and enable audio playback.</p>
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <section class="main-section" id="Cut_Page">
+        <header class="t-large">Cut Page</header>
+        <article>
+            <p>The Cut page is a focused environment for fast editing. It’s useful in situations where you need to quickly cut a news segment, build an episode of web content, edit a straightforward program, experiment with multiple arrangements of a scene, or put together a first assembly edit.</p>
+            <p>The Cut page is also a good introductory editing interface for people who are new to editing, as it presents a streamlined set of tools that are fast to learn and simple to use. Whatever your background, you’ll find the Cut page to be a valuable addition to your editing experience in DaVinci Resolve.</p>
+            
+            <section class="main-section" id="The_Media_Pool">
+                <header class="t-medium">The Media Pool</header>
+                <article>
+                    <p>The Media Pool contains all video clips, audio clips, graphics, and other media that you import into
+                        your project. You can create bins with which to organize all of this media, to make it easier to find what
+                        you need quickly. These bins are opened via the bin drop-down at the upper left-hand corner.</p>
+                    <p>Each piece of media you import, whether it’s video, audio, or graphics, appears as an individual clip
+                        and can be selected, scrubbed for fast viewing, reorganized into bins, opened into the Viewer for
+                        playback, or edited into a timeline using the edit buttons or via drag and drop.</p>
+                </article>
+            </section>
+            <section class="main-section" id="The_Viewer">
+                <header class="t-medium">The Viewer</header>
+                <article>
+                    <p>The Viewer lets you see clips from the Media Pool, or clips in the Timeline, and has numerous controls
+                        to control what you see and how things play.</p>
+                    <p>The Viewer has four mode options. Which option is currently in use can be seen, and switched, by four
+                        buttons in the upper lefthand corner of the Viewer.</p>
+                    <p>The Different options are entered automatically by various actions (from left to right):</p>
+                    <ul>
+                        <li>You can double-click any clip to open it into the Viewer as a Source Clip.</li>
+                        <li>You can view an entire bin full of clips in the Source Tape.</li>
+                        <li>You can play your edited program in the Timeline.</li>
+                        <li>You can select various framing guides and safe areas for the Viewer.</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="Audio_Meter">
+                <header class="t-medium">Audio Meter</header>
+                <article>
+                    <p>An audio meter to the right of the Viewer shows you a graphical representation of the audio levels
+                        playing in the current clip or in the Timeline as you play through the Viewer, via animated vertical bars
+                        that are tinted to indicate how loud the levels are:</p>
+                    <ul>
+                        <li>Green indicates safe levels</li>
+                        <li>Yellow indicates levels that are peaking at approximately safe levels</li>
+                        <li>Red indicates levels that may be peaking at levels that are too high, risking clipping the signal and
+                            causing distortion</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="The_Timeline">
+                <header class="t-medium">The Timeline</header>
+                <article>
+                    <p>The word “timeline” refers both to an edited sequence of clips, which constitutes a program that is
+                        stored in the Media Pool, and to the area of the Cut page interface where you can open this sequence
+                        of clips to see its contents, and for playback and editing.</p>
+                    <p>Timelines are created and stored in the Media Pool, along with all of your other clips. However, each
+                        timeline is assembled and edited in what is sometimes referred to as the Timeline Editor. Different
+                        pages of DaVinci Resolve show your timeline differently according to the special requirements of each
+                        page focusing variously on different methods of editing, grading, compositing, and audio. </p>
+                    <header class="t-small">Upper Timeline</header>
+                    <p>The Upper Timeline always shows the entire program within the full width of your computer’s display.
+                        The Upper Timeline’s playhead is always free, which makes it easy to use your pointer to scroll around
+                        the entire program by dragging within the Timeline Ruler at top. This also serves as a visual reference
+                        for keeping track of where you are in your program while you’re editing within the zoomed-in Lower
+                        Timeline</p>
+                    <header class="t-small">Lower Timeline</header>
+                    <p>The zoomed in Lower Timeline (often referred to simply as “the Timeline”) shows you a close-up view
+                        of the portion of the currently open timeline that immediately surrounds the playhead. The zoom level
+                        is fixed; you cannot change it. The zoomed-in lower timeline is intended for detailed editing, but clips
+                        can be dragged between the Timeline and Upper Timeline for fast reordering of clips across the entire
+                        duration of your program.</p>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <section class="main-section" id="Edit">
+        <header class="t-large">Edit</header>
+        <article>
+            <ul>
+                <li>
+                 <header class="t-small">The Edit Page User Interface</header>
+                 <p>The Edit page has evolved into a source-record style NLE that contains nearly every editorial tool you need for creative editing through finishing. The Edit page is divided into three main regions: the browsers found at the left, the Viewers at the top, and the Timeline at the bottom, all of which work together to let you import, edit, and trim timelines with a flexible variety of tools and methods.</p>
+               </li>
+                <li>
+                 <header class="t-small">Navigating the Edit Page</header>
+                 <p>Each of the panels in the Edit page user interface can be given focus via the Workspace > Active Panel Selection submenu. Additionally, the following keyboard shortcuts can be used to give focus to select bins, clips, the Source and Timeline Viewers, the Timeline, the Effects Library, Edit Index, and Inspector.</p>
+                 <p>Key Function</p>
+                 <code>Command-1 Media Folders</code>
+                 <code>Command-2 Media Clips</code>
+                 <code>Command-3 Source Viewer</code>
+                 <code>Command-4 Timeline</code>
+                 <code>Command-5 Timeline Viewer</code>
+                 <code>Command-6 Effects</code>
+               </li>
+                <li>
+                 <header class="t-small">The Media Pool</header>
+                 <p>In the Edit page, the Media Pool contains all of the video, audio, and still image media you’ve imported for editing into the project at hand, as well as all of the timelines that you’re going to be editing into.The Media Pool is also mirrored on the Media, Cut, Fusion, Color, and Fairlight pages, so you can access any audio or video clip, graphic, or timeline from any page where they can be used.</p>
+                 <p>The Bin list at the left shows a hierarchical list of bins used for organizing your media, which is also used to organize your timelines. By default, the Media Pool consists of a single bin, named “Master,” but you can add more bins as necessary to organize timelines and clips by right-clicking anywhere in the empty area of the Media Pool and choosing Add Bin.</p>
+               </li>
+             </ul>
+        </article>
+    </section>
+
+    <section class="main-section" id="Editing_Effects_and_Transistions">
+        <header class="t-large">Editing Effects and Transistions</header>
+        <article>
+            <p>All effects that you can add to your edit, including filters, transitions, titles, and generators, are found in
+                the Effects panel. The Effects panel shows a hierarchical list of all of the different transitions, title
+                effects, generators, and filters that are available, sorted by category.</p>
+            <p>To activate a specific video effect on a clip, simply drag the thumbnail of the selected effect to a clip
+                on the Timeline. You can also double click the thumbnail, or drag an effect directly into the Inspector
+                to apply the effect to the selected clip. To adjust the effect’s parameters, open the Effects tab
+                in the Inspector.</p>
+
+            <section class="main-section" id="The_ToolBox">
+                <header class="t-medium">The ToolBox</header>
+                <article>
+                    <p>All of the video and audio transitions, titles, and generators that ship along with DaVinci Resolve:</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Open_Fx">
+                <header class="t-medium">Open Fx</header>
+                <article>
+                    <p>DaVinci Resolve supports the use of third-party Open FX filters, transitions, and generators in the Edit
+                        page. Once you install these effects on your workstation, they appear in this section of the Effects
+                        Library, organized by type and group depending on the metadata within each effect.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Audio_Fx">
+                <header class="t-medium">Audio Fx</header>
+                <article>
+                    <p>On all platforms, DaVinci Resolve supports a set of built-in Fairlight FX, a native audio plug-in format
+                        that makes various audio tools and effects available on macOS, Windows, and Linux. On macOS and
+                        Windows, DaVinci Resolve supports the use of third-party VST audio plug-ins, which includes most of
+                        the professional third-party tools and effects used in the audio postproduction industry.</p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Effects_Library_Favorites">
+                <header class="t-medium">Effects Library Favorites</header>
+                <article>
+                    <p>You can click on the far right of any transition, title, or generator flag that effect with a star as a favorite
+                        effect. When you do so, the favorited effects appear in a separate Favorites area at the bottom of the
+                        Effects Library Bin list.</p>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <section class="main-section" id="Inform_and_Confrom_Projects">
+        <header class="t-large">Inform and Confrom Projects</header>
+        <article>
+            <p>Generally speaking, “conforming” a project describes the process of importing a project exchange file from another post-production application, and automatically relinking each clip in the imported timeline to the high-quality media files each clip corresponds to.</p>
+            <p>If you need to continue editing, color correct, or finish a project that was put together in another application, you can import via the EDL, AAF, or XML project exchange formats. When you go through the process of conforming a project, you use the imported project data to arrange the clips in the Media Pool into a timeline that
+                constitutes the program that’s about to be graded.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="Fusion_Fundamentals">
+        <header class="t-large">Fusion Fundamentals</header>
+        <article>
+            <p>Blackmagic Design Fusion is powerful 2D and 3D visual effects compositing software with over thirty years of evolution serving the motion picture and broadcast industry, creating effects seen in countless films and television series. It is available as a stand-alone application as well as a page within DaVinci Resolve.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="Fusion_Page_Effects">
+        <header class="t-large">Fusion Page Effects</header>
+        <article>
+            <p>At times, you may need to import 3D geometry from applications like Blender, Cinema4D, or Maya.
+                One of the formats you can use for importing 3D geometry is the Alembic file format. This file type is a
+                3D scene interchange format that contains baked animation with its geometry. In other words, it
+                eliminates the animation calculation times by embedding fixed, uneditable animation with 3D
+                geometry. The animation is typically embedded using a point cache, which saves the dynamic data
+                such as velocity after it has been calculated. Alembic objects can contain mesh geometry, cameras,
+                points, UVs, normals, and baked animation.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="Color">
+        <header class="t-large">Color</header>
+        <article>
+            <p>For over thirty years, DaVinci has pioneered the development of color correction hardware and software designed to enhance visual images acquired from film and video. This release of DaVinci Resolve possesses our newest and most evolved professional color correction tools yet. However, for all its technological sophistication, DaVinci Resolve is merely a tool that requires the hands of a skilled artist to realize its full potential.</p>
+            <p>Subsequent chapters of this user manual cover the DaVinci Resolve grading tools in the
+                Color page in great detail, but before getting into the specifics of color balancing and contrast
+                adjustment, Power Windows, and Custom Curves, it’s important to step back and consider
+                what these tools are for, and why you’re learning to use this application in the first place.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="Color_Page_Effects">
+        <header class="t-large">Color Page Effects</header>
+        <article>
+            <ul>
+                <li>
+                 <header class="t-small">Resolve FX</header>
+                 <p>Resolve FX are the built-in plug-ins that come with DaVinci Resolve. These plug-ins span the gamut
+                    from blurs and complex color adjustments to stylized image treatments and lighting effects to sharpen and repair operations that are too complex to accomplish using the palette controls of the Color page.</p>
+               </li>
+                <li>
+                 <header class="t-small">Open FX</header>
+                 <p>Open FX (OFX) is an open plug-in standard intended to enable easier development of cross-platform
+                    visual effects plug-ins for a variety of applications. Popular plug-in packages include BorisFX Sapphire and Continuum Complete, Red Giant Universe, and NewBlue TotalFX, all of which are ubiquitous tools for feature and broadcast work. The available Open FX plug-in packages are also growing every year as this format becomes more widely adopted among developers</p>
+               </li>
+             </ul>
+        </article>
+    </section>
+
+    <section class="main-section" id="Reference">
+        <header class="t-large">Reference</header>
+        <article>
+            <p>All the Documentation in this page is taken from
+                <a href="https://www.blackmagicdesign.com/in">Black Magic Design</a> </p>
+        </article>
+    </section>
+    </main>
+</body>
+</html>
